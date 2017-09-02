@@ -1,0 +1,14 @@
+{
+  "name": "babel-preset-vue-props",
+  "version": "1.0.0",
+  "description": "A babel preset for Vue.JS which includes transforms for class properties, and decorators and the vue app preset.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Matt Fetterman <navx2810@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-vue-app": "*",
+    "babel-plugin-transform-decorators-legacy": "*",
+    "babel-plugin-transform-class-properties": "*"
+  }
+}
